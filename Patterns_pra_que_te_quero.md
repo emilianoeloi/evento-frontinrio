@@ -14,3 +14,12 @@ pattern nativa no JS
 
 ## Singleton
 Apenas deve existir uma instancia de uma class
+
+
+## Decorator
+adicionar comportamentos a objetos em tempo de execucao
+faciligar criarar pluging
+
+## Observer
+Usada em deiversos plugins
+mudar estado do objeto ucallback e executado.
