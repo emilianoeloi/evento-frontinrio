@@ -1,0 +1,97 @@
+renderizado no navegador. Extensões do CSS, conhecidas como preprocessadores de CSS, como Sass, Less e Stylus tornam isto mais fácil, oferecendo recursos que torna mais fácil a forma escrever e gerir CSS. Mas sozinhos os preprocessadores, não realmente resolver o problema de escalabilidade. A necessidade de utilizar/desenvolver uma metodologia de CSS afim de organizar e proporcionar a nosso código escalável e mantível.
+
+# Richard Duchatsch
+@ridjohansen
+Front end Engineer na WebRadar, Co-fundador do FEMUG-RJ/FrontInterior e membro do GT de Acessibilidade do W3C Brasil. Nas horas vagas, Organizador de eventos voltados à tecnologia, pesquisador apaixonado por tecnologias ligadas à área de Front End, Arquitetura de Informação, UX, semântica e cross-browser. É bacharel em Comunicação Digital e pós-graduado em Gestão de TI. http://linkedin.com/in/ridjohansen
+
+# Organizando e Modularizando com Metodologias de CSS
+CSS é notoriamente difícil de gerir, isto porque o atualmente o CSS carece de um mecanismo de escopo. Tudo em CSS é global. Isso significa que qualquer alteração feita tem o potencial de alterar o que é renderizado no navegador. Extensões do CSS, conhecidas como preprocessadores de CSS, como Sass, Less e Stylus tornam isto mais fácil, oferecendo recursos que torna mais fácil a forma escrever e gerir CSS. Mas sozinhos os preprocessadores, não realmente resolver o problema de escalabilidade. A necessidade de utilizar/desenvolver uma metodologia de CSS afim de organizar e proporcionar a nosso código escalável e mantível.
+
+# Organização
+
+## Preprocessador
+
+## CSS Object Model
+
+calculo do peso do seletor
+
+0 !important
+0 ids
+0 classes
+0 elementos
+
+`div.content p !important` = 1012
+
+`#main div.content p` = 0112
+
+## Metodologias
+
+- Melhores prática de CSS e HTML
+- converncao de nomeacao de classes e IDs
+- ordenacao e agrupamento de regras de estilo CSS
+- Formatcao de codigo
+
+## Atomic Design
+Atomic Design é uma metodologia de CSS criada por Brad Frost
+ utilities
+ atoms
+ molecules
+ organiesms
+ templates
+
+
+ ## OOCSS
+ Object Oriented CSS
+ btn btn-primary btn-lg
+
+ utilities
+ objects
+ forms
+ layout
+ ages
+
+ ## BEM_
+ Block Element Modifier
+ utilities 
+ objects
+ elements
+ modifiers
+
+
+ ## ITCSS
+ Iverted Triagle CSS
+
+ settings
+ tools
+ generic
+ eleens
+ objects
+ componetns
+ trumps
+
+ base
+ coponents
+ generics
+ objectis
+ tsettings
+ tools
+ tumphs
+ vendor
+
+ ## Classy CSS
+ OOBEMITCSS
+
+ ## DRY CSS
+ Yandex
+
+## Rerencencias
+http://www.w3.org/TR/cssom/
+
+PostProcessors
+Automations
+Optionailizon PostCSs
+CSS.next
+Generators
+CSSOM
+CSS4
+Perfromanc
