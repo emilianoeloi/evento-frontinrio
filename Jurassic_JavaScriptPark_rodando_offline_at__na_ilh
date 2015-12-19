@@ -1,0 +1,26 @@
+Jurassic JavaScriptPark: rodando offline até na ilha Nublar!
+Poucos se beneficiam das funcionalidades offline nos browsers. Vamos descobrir como o uso de localStorage, WebSQL, AppCache e ServiceWorkers, numa arquitetura de sincronização offline e segura, pode ser valioso! Vamos deixar sua aplicação ativa até na ilha Nublar!
+
+Eduardo Matos
+@eduardojmatos
+Desenvolvedor desde 2003, começou a trabalhar como freelance e professor numa escola de informática. Trabalha como desenvolvedor full-stack e programa de JavaScript a Ruby
+
+Javascript
+
+máximo 3 segundos em uma tela de loading.
+
+Application Cache
+cache Manifest
+
+Service Worker API
+
+cookie
+
+local storage
+
+webSQL
+
+indexedDB (worker)
+
+## Framework
+Angular, Backbon
